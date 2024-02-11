@@ -6,15 +6,23 @@ mistakeTag = document.querySelector(".mistake span"),
 wpmTag = document.querySelector(".wpm span"),
 cpmTag = document.querySelector(".cpm span");
 
+welcometab=document.getElementById("welcome");
+startbutton=document.getElementById('welcome-button');
+wrapper=document.getElementById('wrap')
+endscreen=document.getElementById("endscreen")
+
+
+let username,classid;
 let timer,
 maxTime = 60,
 timeLeft = maxTime,
 charIndex = mistakes = isTyping = 0;
 
 function loadParagraph() {
-    const ranIndex = Math.floor(Math.random() * paragraphs.length);
+    const selection=document.getElementById("dropdown").value
+    const ranIndex = Math.floor(Math.random() * eval(selection).length);
     typingText.innerHTML = "";
-    paragraphs[ranIndex].split("").forEach(char => {
+    eval(selection)[ranIndex].split("").forEach(char => {
         let span = `<span>${char}</span>`
         typingText.innerHTML += span;
     });
@@ -24,6 +32,7 @@ function loadParagraph() {
 }
 
 function initTyping() {
+    let wpm;
     let characters = typingText.querySelectorAll("span");
     let typedChar = inpField.value.split("")[charIndex];
     if(charIndex < characters.length - 1 && timeLeft > 0) {
@@ -51,13 +60,22 @@ function initTyping() {
         characters.forEach(span => span.classList.remove("active"));
         characters[charIndex].classList.add("active");
 
-        let wpm = Math.round(((charIndex - mistakes)  / 5) / (maxTime - timeLeft) * 60);
+        wpm = Math.round((((charIndex - mistakes)  / 5) / (maxTime - timeLeft)) * 60);
         wpm = wpm < 0 || !wpm || wpm === Infinity ? 0 : wpm;
-        
-        wpmTag.innerText = wpm;
+        wpmTag.innerText =wpm;
         mistakeTag.innerText = mistakes;
         cpmTag.innerText = charIndex - mistakes;
     } else {
+        endscreen.style.display='flex';
+        wrapper.style.display='none'
+        wpm = Math.round((((charIndex - mistakes)  / 5) / (maxTime - timeLeft)) * 60);
+        wpm = wpm < 0 || !wpm || wpm === Infinity ? 0 : wpm;
+        document.getElementById("uid").innerText=username
+        document.getElementById("classid").innerText=classid
+        document.getElementById("cpmid").innerText=charIndex-mistakes
+        document.getElementById('missid').innerText=mistakes
+        document.getElementById("wordsper").innerText=wpm
+        document.getElementById("diff").innerText=document.getElementById('dropdown').value
         clearInterval(timer);
         inpField.value = "";
     }   
@@ -67,7 +85,7 @@ function initTimer() {
     if(timeLeft > 0) {
         timeLeft--;
         timeTag.innerText = timeLeft;
-        let wpm = Math.round(((charIndex - mistakes)  / 5) / (maxTime - timeLeft) * 60);
+        let wpm = Math.round((((charIndex - mistakes)  / 5) / (maxTime - timeLeft)) * 60);
         wpmTag.innerText = wpm;
     } else {
         clearInterval(timer);
@@ -86,6 +104,16 @@ function resetGame() {
     cpmTag.innerText = 0;
 }
 
-loadParagraph();
-inpField.addEventListener("input", initTyping);
-tryAgainBtn.addEventListener("click", resetGame);
+document.getElementById("inputform").addEventListener("submit",(event)=>{
+    username=document.getElementById('username').value;
+    classid=document.getElementById('userclass').value;
+    console.log(username,classid)
+    event.preventDefault();
+    welcometab.style.display='none';
+    wrapper.style.display='block';
+    loadParagraph();
+    inpField.addEventListener("input", initTyping);
+})
+
+
+//tryAgainBtn.addEventListener("click", resetGame);
