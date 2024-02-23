@@ -22,45 +22,9 @@ const noob = [
 ];
 
 const beginner=[
-    `Significant increase in psychiatric morbidity in
-    the disaster affected group (tables 1 and 2). Excess
-    morbidity was observed in both the genders in the disaster
-    affected group. Overall prevalence of 139 per thousand
-    in the affected sample was significantly higher than 68
-    per thousand in the control sample. 21.46% adult males
-    in the affected group received psychiatric diagnosis
-    compared to 13.14% in the control group. Corresponding
-    figures for adult females were 14.99% and 5.05%; for
-    male children 7.67% and 4.26%; and for female children
-    6.70% and 3.17% respectively. Differential distribution
-    of cases was noticed in the affected villages paralleling
-    the gradient of disaster losses. There was a clustering of
-    cases within families`,
-
-    `278 children were identified as having psychiatric
-    disorder in study sample of 2064 children in age –
-    range (0-16) years giving prevalence rate of 13.4%.
-    It was found that 41 (2.0%) children had diagnosis
-    only on axis II (developmental delay), 14(0.7%) had
-    diagnosis on axis III (intellectual level), 142 (6.9%)
-    had one diagnosis on axis I (psychiatric disorder),
-    44(2.1%) had more than one diagnosis on axis I,
-    and 37 children (1.8%) had diagnosis on more than
-    one axes of the multi axial diagnostic classification.`,
-
-    `Nocturnal enuresis was the commonest diagnosis followed by pica (55, 2.38%)conduct disorder
-        (41, 1.78%) specific developmental disorders
-        (29,1.26%), mental retardation (26, 1.13%) and
-        stuttering (19, 0.62%) dissociative disorder was the
-        next in order (4,0.17%) 28 (1.2%) children received
-        a diagnosis unspecified mental disorder as a second
-        or third diagnosis.`,
+   "In the realm of digital alchemy, numbers and symbols intertwine in an intricate tapestry of complexity. Pi (3.14159) dances with e (2.71828), while arrays of 0s and 1s perform a mesmerizing binary waltz. Fibonacci's sequence (0, 1, 1, 2, 3, 5, 8, 13...) weaves through the algorithmic symphony, adding a rhythmic pulse to the cacophony of data. Within this matrix of digits and calculations, prime numbers stand as sentinels, guardians of mathematical truth. Here, amidst the infinite expanse of numerical possibility, the language of the cosmos reveals itself in a mesmerizing display of numerical harmony."
 ]
 
-pro = [
-    "In the fantastical land of 7XyZ!@# where dragons soar and 2AaSsDdFf creatures roam, the 4QwErTyUioP lion dances with 9JkLlMmNnGgHh. Meanwhile, 6ZxCcVvBbNn 3MmMnBb9IiKkLl plays tunes on 8KkLlOoPp7UuYy the magical xylophone while 0PpOo9i8u7yUu the moon whispers secrets to the stars.",
-    "PoiuYtReWq 4TtYyUuIiOpP 3SsDdFfGgHhJj 6KkLlMmNnBb is a realm filled with 9ZzXxCcVvBbNnMm wonders and 8JjHhGgFfDdSs enchantments. In this land, 7QqWwEeRrTt creatures of 2AaSsDdFfGgHhJj 1ZzXxCcVvBbNn roam freely, while 0PpOoIiUuYyTtYy the rivers sing melodies of 5QqWwEeRrTt love and 4PpOoIiUuYy the trees whisper ancient tales.",
-    "AsDfGhJkL; 7TtYyUuIiOpP is a magical 8JjHhGgFfDdSs world where 6AaSsDdFfGg creatures of 4ZzXxCcVvBbNnMm roam freely. In the 9KkLlMmNnBb 3QqWwEeRrTt lands of 1PpOoIiUuYy, 0ZzXxCcVvBbNnMm dragons soar high in the 5FfGgHhJjKkLl skies while 2XxCcVvBbNnMmPpOo8iI7uU9yYy the forests hum with 3SsDdFfGg enchanting melodies.",
-    "QwErTyUiO1p 3aAsDdFfGgHhJj 7KkLlMmNnBbVvC is a land where 8JjHhGgFfDdSs creatures of 2zZxXcCvVbBnNmMmMm roam freely among 6mMnNkKlL5jJ8hHgGfF7dD. In the 9jJkKlL5lL6 world of 4sSdDfFgG, 0pPoOiI9u8yY7tT6rRtYy the moon dances with 1eEwWqQaAsS enchanting delight while 5gGhHjJkKlL the stars whisper secrets to the 4rRtTyYuUyYy skies.",
-    "1QqWwEeRrTtYyUuIi is a magical 2OoPpIiUuYy land filled with 3HhGgFfDdSsAa creatures of 4NnMmBbVvCcXxZz wonders. In this realm, 5JjKkLlMmNnBbVvC creatures roam freely, while 6QqWwEeRrTtYyUu the rivers sing melodies of 7IiOoPpUuYyTt love and 8RrTtYyUuIiOo the trees whisper ancient tales to the 9PpOoIiUuYyTtYy skies."
+const pro = [
+    "1. L1f3 1$ l1k3 @ j0urn3y, y0u n3v3r kn0w wh@t'$ @r0und th3 c0rn3r. It'$ b3tt3r t0 b3 @ l10n f0r @ d@y th@n @ sh33p @ll y0ur l1f3. D0n't c0unt y0ur ch1ck3n$ b3f0r3 th3y'r3 h@tch3d. Wh@t'$ y0ur f@v0r1t3 b00k? I l0v3 t0 l1$t3n t0 cl@$$1c@l mu$1c. Wh@t'$ y0ur f@v0r1t3 m0v13? D0 y0u l1k3 t0 c00k? I w0uld l0v3 t0 v1$1t L0nd0n 0n3 d@y. L1f3 1$ l1k3 @ b0x 0f ch0c0l@t3$, y0u n3v3r kn0w wh@t y0u'r3 g01ng t0 g3t."
 ]
