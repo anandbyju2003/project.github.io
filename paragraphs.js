@@ -22,9 +22,9 @@ const noob = [
 ];
 
 const beginner=[
-   "In the realm of digital alchemy, numbers and symbols intertwine in an intricate tapestry of complexity. Pi (3.14159) dances with e (2.71828), while arrays of 0s and 1s perform a mesmerizing binary waltz. Fibonacci's sequence (0, 1, 1, 2, 3, 5, 8, 13...) weaves through the algorithmic symphony, adding a rhythmic pulse to the cacophony of data. Within this matrix of digits and calculations, prime numbers stand as sentinels, guardians of mathematical truth. Here, amidst the infinite expanse of numerical possibility, the language of the cosmos reveals itself in a mesmerizing display of numerical harmony."
+    "In the vast (digital expanse), numbers and symbols dance in a kaleidoscope of complexity. 3.14159 spirals gracefully alongside 2.71828, while matrices of 0s and 1s perform an intricate ballet. Fibonacci's sequence weaves through the binary rhythms, as algorithms conduct a symphony of computation. Amidst the chaos, prime numbers emerge like elusive spirits, their patterns a testament to the beauty of mathematics. Here, in the realm of endless calculations, numbers reign supreme, shaping the very fabric of the digital cosmos with their infinite permutations."
 ]
 
-const pro = [
-    "1. L1f3 1$ l1k3 @ j0urn3y, y0u n3v3r kn0w wh@t'$ @r0und th3 c0rn3r. It'$ b3tt3r t0 b3 @ l10n f0r @ d@y th@n @ sh33p @ll y0ur l1f3. D0n't c0unt y0ur ch1ck3n$ b3f0r3 th3y'r3 h@tch3d. Wh@t'$ y0ur f@v0r1t3 b00k? I l0v3 t0 l1$t3n t0 cl@$$1c@l mu$1c. Wh@t'$ y0ur f@v0r1t3 m0v13? D0 y0u l1k3 t0 c00k? I w0uld l0v3 t0 v1$1t L0nd0n 0n3 d@y. L1f3 1$ l1k3 @ b0x 0f ch0c0l@t3$, y0u n3v3r kn0w wh@t y0u'r3 g01ng t0 g3t."
+const pro=[
+    "L1f3 1$ l1k3 @ j0urn3y, y0u n3v3r kn0w wh@t'$ @r0und th3 c0rn3r. It'$ b3tt3r t0 b3 @ l10n f0r @ d@y th@n @ sh33p @ll y0ur l1f3. D0n't c0unt y0ur ch1ck3n$ b3f0r3 th3y'r3 h@tch3d. Wh@t'$ y0ur f@v0r1t3 b00k? I l0v3 t0 l1$t3n t0 cl@$$1c@l mu$1c. Wh@t'$ y0ur f@v0r1t3 m0v13? D0 y0u l1k3 t0 c00k? I w0uld l0v3 t0 v1$1t L0nd0n 0n3 d@y. L1f3 1$ l1k3 @ b0x 0f ch0c0l@t3$, y0u n3v3r kn0w wh@t y0u'r3 g01ng t0 g3t."
 ]
