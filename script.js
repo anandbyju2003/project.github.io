@@ -31,10 +31,14 @@ function loadParagraph() {
     typingText.addEventListener("click", () => inpField.focus());
 }
 
-function initTyping() {
+function initTyping(event) {
     let wpm;
     let characters = typingText.querySelectorAll("span");
-    let typedChar = inpField.value.split("")[charIndex];
+    let typedChar = event.data || inpField.value.charAt(charIndex); // Get the typed character
+
+    if (event.inputType === 'deleteContentBackward') {
+        event.preventDefault(); // Prevent backspace from deleting characters
+    }
     if(charIndex < characters.length - 1 && timeLeft > 0) {
         if(!isTyping) {
             timer = setInterval(initTimer, 1000);
@@ -116,4 +120,3 @@ document.getElementById("inputform").addEventListener("submit",(event)=>{
 })
 
 
-//tryAgainBtn.addEventListener("click", resetGame);
